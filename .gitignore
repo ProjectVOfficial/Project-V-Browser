@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+ui/node_modules/
+
+# Frontend/build output
+ui/dist/
+dist/
+release/
+release-portable/
+out/
+build/
+
+# Release/signing secrets
+release-keys/
+*.pfx
+*.p12
+*.pem
+!resources/release-public-key.pem
+
+# Environment/local configuration
+.env
+.env.*
+!.env.example
+
+# Browser/user data
+portable-data/
+user-data/
+userData/
+ProjectV-Data/
+downloads/
+quarantine/
+profiles/
+profile/
+history/
+
+# Logs/cache/temp
+*.log
+.cache/
+tmp/
+temp/
+
+# IDE/OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
